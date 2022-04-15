@@ -1,0 +1,142 @@
+{
+    "stages": [
+        [
+            [
+                [
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa"
+                ],
+                [
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT"
+                ]
+            ],
+            [
+                [
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa"
+                ],
+                [
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT"
+                ]
+            ],
+            [
+                [
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa"
+                ],
+                [
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT"
+                ]
+            ],
+            [
+                [
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa"
+                ],
+                [
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
+                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT"
+                ]
+            ]
+        ]
+    ],
+    "settings": {
+        "tiles": {
+            "spriteSheet": "../src/mods/default/images/floor.bmp",
+            "tilesPrefabs": [
+                {
+                    "name": "aaa",
+                    "type": "floor",
+                    "sprite": [0, 0, 16, 16]
+                },
+                {
+                    "name": "bbb",
+                    "type": "floor",
+                    "sprite": [17, 0, 16, 16]
+                }
+            ]
+        },
+        "player": {
+            "speed": 2,
+            "sprites": {
+                "spriteSheet": "../src/mods/default/images/player1.bmp",
+                "idle": [0, 0, 16, 16]
+            }
+        }
+    }
+}
