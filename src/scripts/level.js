@@ -29,6 +29,9 @@ function loadLevel(campaign, stageIndex) {
                         x: pos * 16,
                         y: lineIndex * 16,
                         layer: layerIndex,
+                        name: cell,
+                      currSprite: 0,
+                      eachs: []
                     });
                 }
             });
@@ -44,10 +47,10 @@ function updateLevel(level, ctx) {
     level.tilesObjects.forEach((cell) => {
         ctx.drawImage(
             level.spriteSheet,
-            prefabs[cell.type].sprite[0],
-            prefabs[cell.type].sprite[1],
-            prefabs[cell.type].sprite[2],
-            prefabs[cell.type].sprite[3],
+            prefabs[cell.type].sprite[cell.currSprite][0],
+            prefabs[cell.type].sprite[cell.currSprite][1],
+            prefabs[cell.type].sprite[cell.currSprite][2],
+            prefabs[cell.type].sprite[cell.currSprite][3],
             cell.x,
             cell.y,
             16,

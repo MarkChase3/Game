@@ -10,23 +10,23 @@
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
-                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#ccc#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa"
                 ],
                 [
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT"
+                    "bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb"
                 ]
             ],
             [
@@ -44,17 +44,17 @@
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa"
                 ],
                 [
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT"
+                    "bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb"
                 ]
             ],
             [
@@ -72,17 +72,17 @@
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa"
                 ],
                 [
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT"
+                    "bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb#bbb#bbb#bbb#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#bbb#NOT#NOT#NOT#bbb#bbb#bbb#bbb#bbb#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb"
                 ]
             ],
             [
@@ -100,42 +100,70 @@
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa"
                 ],
                 [
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT",
-                    "NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT"
+                    "bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb"
                 ]
             ]
         ]
     ],
     "settings": {
         "tiles": {
-            "spriteSheet": "../src/mods/default/images/floor.bmp",
+            "spriteSheet": "../src/mods/default/images/tileset.png",
             "tilesPrefabs": [
                 {
                     "name": "aaa",
-                    "type": "floor",
-                    "sprite": [0, 0, 16, 16]
+                    "sprite": [[18, 1, 16, 16]],
+                    "events": 0
                 },
                 {
                     "name": "bbb",
-                    "type": "floor",
-                    "sprite": [17, 0, 16, 16]
+                    "sprite": [[35, 1, 16, 16]],
+                    "events": {
+                      "collide": {
+                        "tile": {
+                          
+                        },
+                      "timeOut": {
+                            "time": 2000,
+                            "action":{
+                              "player": {
+                                "spd": 5
+                              }
+                            }
+                          } 
+                      }
+                    }
+                },
+                {
+                  "name": "ccc",
+                  "sprite": [[52,1,16,16],[69,1,16,16]],
+                  "collide": {
+                        "tile": {
+                          "currSprite": 1,
+                          "x":500
+                        },
+                        "player":{
+
+                        }
+                      }
                 }
             ]
         },
         "player": {
             "speed": 2,
+            "hp": 10,
             "sprites": {
-                "spriteSheet": "../src/mods/default/images/player1.bmp",
-                "idle": [0, 0, 16, 16]
+                "spriteSheet": "../src/mods/default/images/tileset.png",
+                "idle": [1, 1, 16, 16]
             }
         }
     }
