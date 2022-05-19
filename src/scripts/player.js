@@ -21,7 +21,8 @@ function createPlayer(x, y, campaign) {
 
 function updatePlayer(player, level, ctx) {
     // save the context, scale it, draw the current player frame and restore
-    ctx.save();
+  let areColliding = Array(level.tilesObjects.length).fill(false);
+  ctx.save();
     ctx.scale(2, 2);
     ctx.drawImage(player.spriteSheet,
         player.frames[player.currFrame][0],
@@ -40,13 +41,16 @@ function updatePlayer(player, level, ctx) {
     if (keys['s'] ) {
         player.y += player.spd;
     }
-    level.tilesObjects.forEach( cell => {
-            if(cell.layer == 1 && aabb_collision(cell.x,cell.y,16,16,player.x,player.y,16,16)){
-                player.y = player.preY;
-                if(level.tilesPrefabs[cell['name']]['events']!=null && level.tilesPrefabs[cell['name']]['events']['collide']){
-                  event(level.tilesPrefabs[cell['name']]['events']['collide'],cell,player,null);
-              }
-            }
+    level.tilesObjects.forEach( (cell,i) => {
+      if(aabb_collision(cell.x,cell.y,16,16,player.x,player.y,16,16)){
+        cell.collide = true;
+        areColliding[i] = true;
+        if(cell.layer == 1){
+          player.y = player.preY;
+        }
+      } else {
+        cell.collide = false;
+      }
     });
     if (keys['a']) {
         player.x -= player.spd;
@@ -55,15 +59,14 @@ function updatePlayer(player, level, ctx) {
         player.x += player.spd;
     }
     level.tilesObjects.forEach( cell => {
-            if(aabb_collision(cell.x,cell.y,16,16,player.x,player.y,16,16)){
-              if(cell.layer == 1){
-                player.x = player.preX;
-              }
-              if(level.tilesPrefabs[cell['name']]['events']!=null && level.tilesPrefabs[cell['name']]['events']['collide']){                  console.log('jksfbhskgjkghbjkjhkjdfhgdfklhgkldfhhgfkhbfkhjlfghlf10000');
-                  event(level.tilesPrefabs[cell['name']]['events']['collide'],cell,player,null);
-              }
-            }
-    })
-    // console.log('dlkjasrnggtreh');
+      if(aabb_collision(cell.x,cell.y,16,16,player.x,player.y,16,16)){
+        cell.collide = true;
+        if(cell.layer == 1){
+          player.x = player.preX;
+        }
+      } else if(!areColliding) {
+        cell.collide = false;
+      }
+    });
     return player;
 }

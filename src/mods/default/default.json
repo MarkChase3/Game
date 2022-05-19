@@ -39,7 +39,7 @@
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
-                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#cdc#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa"
                 ],
@@ -122,37 +122,79 @@
                 {
                     "name": "aaa",
                     "sprite": [[18, 1, 16, 16]],
-                    "events": 0
+                    "events": null
                 },
                 {
                     "name": "bbb",
                     "sprite": [[35, 1, 16, 16]],
                     "events": {
-                      "collide": {
+                      "touch": {
                         "tile": {
                           
                         },
-                      "timeOut": {
-                            "time": 2000,
-                            "action":{
-                              "player": {
-                                "spd": 5
-                              }
-                            }
+                        "player": {
+                          "add":{
+                            "spd": 0.5
                           } 
+                        }
                       }
                     }
                 },
                 {
                   "name": "ccc",
                   "sprite": [[52,1,16,16],[69,1,16,16]],
-                  "collide": {
+                  "events":{
+                    "start": {
                         "tile": {
-                          "currSprite": 1,
-                          "x":500
                         },
-                        "player":{
+                        "each": {
+                          "time": 2000,
+                          "numberOfTimes": 99999999999999999999999999999999999999,
+                          "action": {
+                            "tile": {
+                              "set":{
+                              "currSprite": 1
+                            }
+                            }, 
+                            "timeOut": {
+                              "time": 1000,
+                              "action": {
+                                "tile": {
+                              "set":{
+                              "currSprite": 0
+                            }
+                            }
+                              }
+                            }
+                          }
+                        }
+                      }
+                  }
+                },
+                    {
+                  "name": "cdc",
+                  "sprite": [[86,1,16,16],[103,1,16,16]],
+                  "events":{
+                    "touch": {
+                        "tile": {
+                          "set":{"currSprite": 1}
+                        },
+                      "player": {
 
+                      },
+                        "timeOut": {
+                          "time": 2000,
+                          "action": {
+                            "tile": {
+                              "set":{
+                              "currSprite": 0
+                            }
+                            }, 
+                            "player": {
+                              
+                            }
+                            }
+                          }
                         }
                       }
                 }
