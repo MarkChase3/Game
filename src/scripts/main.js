@@ -7,7 +7,9 @@ function start() {
 
         //load the map
         level = loadLevel(campaign,0);
-        
+
+        UI = createUI();
+      
         //sinalize the game can start because all was loaded and created
         started = true;
     } else {
@@ -26,6 +28,10 @@ function update() {
         level = updateLevel(level,ctx);
         // update the player
         player = updatePlayer(player, level, ctx);
+        // update the enemies
+        level.enemies = updateEnemies(level,player);
+
+        UI = updateUI(UI,player)
     }
     window.requestAnimationFrame(update);
 }

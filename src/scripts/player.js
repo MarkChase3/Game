@@ -6,6 +6,9 @@ function createPlayer(x, y, campaign) {
     thisPlayer.y = y;
     thisPlayer.preX = x;
     thisPlayer.preY = y;
+    thisPlayer.side = 1;
+    thisPlayer.knockbackAlreadyDid = 20;
+    thisPlayer.knockbackAngle = 0;
     thisPlayer.hp = campaign['settings']['player']['hp'];
     console.log(campaign);
     thisPlayer.spd = campaign['settings']['player']['speed'];
@@ -21,15 +24,15 @@ function createPlayer(x, y, campaign) {
 
 function updatePlayer(player, level, ctx) {
     // save the context, scale it, draw the current player frame and restore
-  let areColliding = Array(level.tilesObjects.length).fill(false);
+  let areColliding = Array(level.tiles.length).fill(false);
   ctx.save();
-    ctx.scale(2, 2);
+        ctx.scale(2 * player.side, 2);
     ctx.drawImage(player.spriteSheet,
         player.frames[player.currFrame][0],
         player.frames[player.currFrame][1],
         player.frames[player.currFrame][2],
         player.frames[player.currFrame][3],
-        player.x,player.y,
+        player.side==-1 ? -16-player.x : player.x,player.y,
         player.frames[player.currFrame][2],
         player.frames[player.currFrame][3]);
     ctx.restore();
@@ -41,11 +44,20 @@ function updatePlayer(player, level, ctx) {
     if (keys['s'] ) {
         player.y += player.spd;
     }
-    level.tilesObjects.forEach( (cell,i) => {
+    if(player.knockbackAlreadyDid<20){
+      player.y -= Math.sin(player.knockbackAngle) * 10;
+      player.knockbackAlreadyDid += Math.abs(Math.sin(player.knockbackAngle)) * 10;
+    }
+    level.tiles.forEach( (cell,i) => {
       if(aabb_collision(cell.x,cell.y,16,16,player.x,player.y,16,16)){
         cell.collide = true;
         areColliding[i] = true;
         if(cell.layer == 1){
+          if(player.knockbackAlreadyDid<20){
+            player.y += Math.sin(player.knockbackAngle) * 10;
+            player.x -= Math.sin(player.knockbackAngle) * 10;
+            player.knockbackAlreadyDid -= Math.abs(Math.sin(player.knockbackAngle)) * 10;
+          }
           player.y = player.preY;
         }
       } else {
@@ -54,12 +66,25 @@ function updatePlayer(player, level, ctx) {
     });
     if (keys['a']) {
         player.x -= player.spd;
+        player.side = -1;
     }
     if (keys['d']) {
         player.x += player.spd;
+        player.side = 1;
     }
-    level.tilesObjects.forEach( cell => {
+    if(player.knockbackAlreadyDid<20){
+      player.x -= Math.cos(player.knockbackAngle) * 10;
+      player.knockbackAlreadyDid += Math.abs(Math.cos(player.knockbackAngle)) * 10;
+    }
+    level.tiles.forEach( cell => {
       if(aabb_collision(cell.x,cell.y,16,16,player.x,player.y,16,16)){
+        if(cell.dangerous){
+          player.knockbackAngle = Math.atan2((cell.y-player.y),(cell.x-player.x));
+      player.knockbackAlreadyDid = 0;
+    if(!cell.touch){
+      player.hp--;
+    }
+        }
         cell.collide = true;
         if(cell.layer == 1){
           player.x = player.preX;

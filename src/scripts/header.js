@@ -4,10 +4,14 @@ let nImages = 0,
 let nJSONs = 0,
     nJSONsLoaded = 0;
 let started = false;
-let level;
 const gameWidth = 640,
     gameHeight = 360;
 const gameScale = Math.min(Math.trunc(window.innerWidth / gameWidth), Math.trunc(window.innerHeight / gameHeight));
+
+// game objects
+let level;
+let UI;
+let player;
 
 //initialize the canvas and ctx
 let gameCanvas = document.getElementById('gameCanvas');
@@ -57,7 +61,6 @@ function loadImage(imgPath, callBack) {
 
         //increase the number of sucesfully loaded images
         nImagesLoaded++;
-
         // call the callback when loaded
         callBack(bufferImg)
     };
@@ -120,8 +123,6 @@ let campaignPromise = loadJSON('../src/mods/default/default.json'),
 campaignPromise.then((value) => {
     nJSONsLoaded++;
     campaign = value
-    console.log('ulfkcn euh');
 });
-console.log(campaign);
-let player;
-let mapLoader;
+
+console.log('klbkgjbsdfkjgi ud');

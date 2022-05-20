@@ -1,30 +1,36 @@
 function loadLevel(campaign, stageIndex) {
     let stage = campaign['stages'][stageIndex];
-    let level = stage[Math.floor(Math.random() * stage.length)];
-    let tiles = {
-        tilesObjects: [],
-        tilesPrefabs: {},
+    let currLevel = stage[Math.floor(Math.random() * stage.length)]
+    let level = {
+        tiles: [],
+        enemies: [],
+        layers: currLevel,
+        prefabs: campaign.settings.prefabs.reduce((obj,curr) => obj[curr.name] = curr),
         spriteSheet: loadImage(
-            campaign['settings']['tiles']['spriteSheet'],
+            campaign['settings']['spriteSheet'],
             processImage
         ),
     };
+  console.log(level.prefabs)
     // console.log(stage + '\n');
-    level.forEach((layer, layerIndex) => {
+    currLevel.forEach((layer, layerIndex) => {
         layer.forEach((line, lineIndex) => {
             let cells = line.split('#');
             cells.forEach((cell, pos) => {
                 if (cell !== 'NOT') {
-                    if (!tiles.tilesPrefabs[cell]) {
-                        tiles.tilesPrefabs[
+                    if (!level.prefabs[cell]) {
+                        level.prefabs[
                             cell
-                        ] = campaign.settings.tiles.tilesPrefabs.find(
+                        ] = campaign.settings.prefabs.find(
                             (prefab) => {
                                 return prefab.name === cell;
                             }
                         );
                     }
-                    tiles.tilesObjects.push({
+                if(level.prefabs[cell].type == "enemie"){
+                  level.enemies.push(createEnemie(pos * 16,lineIndex * 16,1,2,0,0.5,cell))
+                } else if(level.prefabs[cell].type == "tile"){
+                    level.tiles.push({
                         x: pos * 16,
                         y: lineIndex * 16,
                         layer: layerIndex,
@@ -32,24 +38,26 @@ function loadLevel(campaign, stageIndex) {
                         currSprite: 0,
                         eachs: [],
                         collide: false,
-                        touch: false
+                        touch: false,
+                        dangerous: (level.prefabs[cell].hasOwnProperty('dangerous') ? level.prefabs[cell].dangerous : false)
                     });
-                    if(tiles.tilesPrefabs[tiles.tilesObjects[tiles.tilesObjects.length-1]['name']]['events']!=null && tiles.tilesPrefabs[tiles.tilesObjects[tiles.tilesObjects.length-1]['name']]['events']['start']){
-                      console.log(tiles.tilesPrefabs[tiles.tilesObjects[tiles.tilesObjects.length-1]['name']])
-                    event(tiles.tilesPrefabs[tiles.tilesObjects[tiles.tilesObjects.length-1]['name']]['events']['start'],tiles.tilesObjects[tiles.tilesObjects.length-1],null,null);
+                    if(level.prefabs[level.tiles[level.tiles.length-1]['name']]['events']!=null && level.prefabs[level.tiles[level.tiles.length-1]['name']]['events']['start']){
+                    
+                    event(level.prefabs[level.tiles[level.tiles.length-1]['name']]['events']['start'],level.tiles[level.tiles.length-1],null,null);
+                }
                 }
                 }
             });
         });
     });
-    console.log(tiles);
-    return tiles;
+    console.log(level);
+    return level;
 }
 function updateLevel(level, ctx) {
-    let prefabs = level.tilesPrefabs;
+    let prefabs = level.prefabs;
     ctx.save();
     ctx.scale(2, 2);
-    level.tilesObjects.forEach((cell) => {
+    level.tiles.forEach((cell) => {
         ctx.drawImage(
             level.spriteSheet,
             prefabs[cell.name].sprite[cell.currSprite][0],
@@ -61,18 +69,18 @@ function updateLevel(level, ctx) {
             16,
             16
         );
-    if(level.tilesPrefabs[cell['name']]['events'] != null && level.tilesPrefabs[cell['name']]['events']['touch'] && cell.collide && !cell.touch){
+    if(level.prefabs[cell['name']]['events'] != null && level.prefabs[cell['name']]['events']['touch'] && cell.collide && !cell.touch){
       cell.touch = true;
       console.log('jkodbuidgni');
-      event(level.tilesPrefabs[cell['name']]['events']['touch'],cell,player,null);
+      event(level.prefabs[cell['name']]['events']['touch'],cell,player,null);
     }
     if(!cell.collide){
       cell.touch = false;
     }
-  if(level.tilesPrefabs[cell['name']]['events']!=null && level.tilesPrefabs[cell['name']]['events']['collide'] && cell.collide){
+  if(level.prefabs[cell['name']]['events']!=null && level.prefabs[cell['name']]['events']['collide'] && cell.collide){
 
             console.log('jksfbhskgjkghbjkjhkjdfhgdfklhgkldfhhgfkhbfkhjlfghlf10000');
-          event(level.tilesPrefabs[cell['name']]['events']['collide'],cell,player,null);
+          event(level.prefabs[cell['name']]['events']['collide'],cell,player,null);
   }
     });
       ctx.restore();

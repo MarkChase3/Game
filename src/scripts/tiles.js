@@ -1,24 +1,20 @@
 function applyConfigs(object,configs){
-  console.log('usbhsdgbndg')
   if(configs['set']){
-    console.log('dafuhsdgnjkbidusds');
     for(const configName in configs['set']){
       object[configName] = configs['set'][configName];
-      console.log(object)
     }
   }
   if(configs['add']){
     for(const configName in configs['add']){
       object[configName] += configs['add'][configName];
-      console.log(configName,configs['add'][configName])
     }
   }
+  console.log('jhist');
 }
 function event(config,tile,player,enemy){
-  console.log('sdijhnkdfl')
   applyConfigs(tile,config['tile']);
   if(player!=null){
-    console.log('aijfgsdykuhifsdzg');
+    console.log('omusmofidgiousg');
     applyConfigs(player,config['player']);
   }
   if(enemy!=null){
@@ -39,6 +35,6 @@ function event(config,tile,player,enemy){
     })
 }
   if(config['timeOut']){
-    window.setTimeout(() => {event(config['timeOut']['action'],tile,player,enemy);console.log('klsgjndsjkngiusld')},config['timeOut']['time'])
+    window.setTimeout(() => {event(config['timeOut']['action'],tile,player,enemy)},config['timeOut']['time'])
   }
 }
