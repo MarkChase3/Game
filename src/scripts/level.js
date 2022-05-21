@@ -39,7 +39,8 @@ function loadLevel(campaign, stageIndex) {
                         eachs: [],
                         collide: false,
                         touch: false,
-                        dangerous: (level.prefabs[cell].hasOwnProperty('dangerous') ? level.prefabs[cell].dangerous : false)
+                        dangerous: (level.prefabs[cell].hasOwnProperty('dangerous') ? level.prefabs[cell].dangerous : false),
+                        hitted: false
                     });
                     if(level.prefabs[level.tiles[level.tiles.length-1]['name']]['events']!=null && level.prefabs[level.tiles[level.tiles.length-1]['name']]['events']['start']){
                     
@@ -69,10 +70,12 @@ function updateLevel(level, ctx) {
             16,
             16
         );
-    if(level.prefabs[cell['name']]['events'] != null && level.prefabs[cell['name']]['events']['touch'] && cell.collide && !cell.touch){
+    if(cell.collide && !cell.touch){
       cell.touch = true;
+      if(level.prefabs[cell['name']]['events'] != null && level.prefabs[cell['name']]['events']['touch']){
       console.log('jkodbuidgni');
       event(level.prefabs[cell['name']]['events']['touch'],cell,player,null);
+    }
     }
     if(!cell.collide){
       cell.touch = false;

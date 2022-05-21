@@ -9,12 +9,10 @@ function applyConfigs(object,configs){
       object[configName] += configs['add'][configName];
     }
   }
-  console.log('jhist');
 }
 function event(config,tile,player,enemy){
   applyConfigs(tile,config['tile']);
   if(player!=null){
-    console.log('omusmofidgiousg');
     applyConfigs(player,config['player']);
   }
   if(enemy!=null){

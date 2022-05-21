@@ -12,6 +12,7 @@ function start() {
       
         //sinalize the game can start because all was loaded and created
         started = true;
+      restart = false;
     } else {
         // if some jsons were not loaded, call the start function in the next frame
         window.requestAnimationFrame(start);
@@ -27,11 +28,15 @@ function update() {
         // update the map tiles 
         level = updateLevel(level,ctx);
         // update the player
-        player = updatePlayer(player, level, ctx);
+        player = updatePlayer(player, level, ctx, level.enemies);
         // update the enemies
         level.enemies = updateEnemies(level,player);
 
         UI = updateUI(UI,player)
+      if(restart){
+        started = false;
+        start();
+      }
     }
     window.requestAnimationFrame(update);
 }

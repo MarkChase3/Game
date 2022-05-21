@@ -12,7 +12,13 @@ function createEnemie(x,y,dmg,hp,currSprite,spd,name) {
   return thisEnemie;
 }
 function updateEnemies(level,player){
-  level.enemies.forEach((enemie) => {
+  if(level.enemies.length==0){
+    restart = true;
+  }
+  level.enemies.forEach((enemie,i) => {
+    if(enemie.hp<=0){
+      level.enemies.splice(i,1);
+    }
     ctx.save();
     ctx.scale(2 * enemie.side, 2);
         ctx.drawImage(
@@ -45,6 +51,7 @@ function updateEnemies(level,player){
     }
   if(aabb_collision(player.x,player.y,16,16,enemie.x,enemie.y,16,16)){
     	player.knockbackAngle = Math.atan2((enemie.y-player.y),(enemie.x-player.x));
+    console.log( enemie.x,mouse.x)
     if(!enemie.touch){
       player.hp-=enemie.dmg;
       enemie.touch = true;

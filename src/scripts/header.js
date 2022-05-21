@@ -6,13 +6,14 @@ let nJSONs = 0,
 let started = false;
 const gameWidth = 640,
     gameHeight = 360;
+let restart = true;
 const gameScale = Math.min(Math.trunc(window.innerWidth / gameWidth), Math.trunc(window.innerHeight / gameHeight));
 
 // game objects
 let level;
 let UI;
 let player;
-
+let mouse = {x:0,y:0};
 //initialize the canvas and ctx
 let gameCanvas = document.getElementById('gameCanvas');
 gameCanvas.width = gameWidth;
@@ -39,7 +40,17 @@ window.addEventListener('keyup',
         keys[e.key] = false;
     },
     false);
-
+window.addEventListener('mousedown', () => {
+  keys['lmouse'] = true;
+})
+window.addEventListener('mouseup', () => {
+  keys['lmouse'] = false;
+})
+gameCanvas.addEventListener('mousemove',(e) => {
+   var rect = e.target.getBoundingClientRect();
+      mouse.x = (e.clientX - rect.left)/2; //x position within the element.
+      mouse.y = (e.clientY - rect.top)/2;  //y position within the element.
+})
 //aabb collision
 function aabb_collision(ax,ay,aw,ah,bx,by,bw,bh){
     return (ax + aw > bx ) && (bx + bw > ax) && (ay + ah > by) && (by + bh > ay);
