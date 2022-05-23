@@ -28,7 +28,7 @@ function loadLevel(campaign, stageIndex) {
                         );
                     }
                 if(level.prefabs[cell].type == "enemie"){
-                  level.enemies.push(createEnemie(pos * 16,lineIndex * 16,1,2,0,0.5,cell))
+                  level.enemies.push(createEnemie(pos * 16,lineIndex * 16,level.prefabs[cell].atk, level.prefabs[cell].hp, level.prefabs[cell].spd,0,cell))
                 } else if(level.prefabs[cell].type == "tile"){
                     level.tiles.push({
                         x: pos * 16,

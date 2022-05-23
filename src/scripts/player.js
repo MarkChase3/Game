@@ -59,6 +59,11 @@ function updatePlayer(player, level, ctx, enemies) {
           //console.lo
         }
       })
+      level.tiles.forEach( cell => {
+      if(cell.layer==1 && aabb_collision(cell.x,cell.y,16,16,el.x,el.y,8,8)){
+        player.arrows.splice(i,1);
+      }
+      });
       ctx.save();
       ctx.translate(el.x*2+16,el.y*2+16);
       ctx.rotate(el.angle);

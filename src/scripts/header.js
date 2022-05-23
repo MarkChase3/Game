@@ -7,6 +7,8 @@ let started = false;
 const gameWidth = 640,
     gameHeight = 360;
 let restart = true;
+let lastTime = 0;
+let frame = 0;
 const gameScale = Math.min(Math.trunc(window.innerWidth / gameWidth), Math.trunc(window.innerHeight / gameHeight));
 
 // game objects
@@ -50,6 +52,9 @@ gameCanvas.addEventListener('mousemove',(e) => {
    var rect = e.target.getBoundingClientRect();
       mouse.x = (e.clientX - rect.left)/2; //x position within the element.
       mouse.y = (e.clientY - rect.top)/2;  //y position within the element.
+})
+window.addEventListener('contextmenu', () => {
+  e.preventDefault();
 })
 //aabb collision
 function aabb_collision(ax,ay,aw,ah,bx,by,bw,bh){

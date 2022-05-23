@@ -18,9 +18,9 @@
                 [
                     "bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb",
                     "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#mmm#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
                     "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#dee#NOT#NOT#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
                     "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
                     "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#mmm#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
                     "bbb#NOT#NOT#NOT#bbb#bbb#bbb#NOT#NOT#bbb#bbb#bbb#bbb#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
@@ -45,14 +45,14 @@
                 ],
                 [
                     "bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb",
-                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#mmm#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#mmm#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#mmm#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#mmm#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#mmm#bbb#NOT#NOT#dee#NOT#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#mmm#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#bbb#bbb#bbb#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#bbb#NOT#NOT#NOT#dee#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
                     "bbb#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
                     "bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb"
                 ]
@@ -75,12 +75,12 @@
                     "bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb",
                     "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
                     "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb#bbb#bbb#bbb#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#bbb#NOT#NOT#mmm#bbb#bbb#bbb#bbb#bbb#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#dee#NOT#NOT#NOT#NOT#NOT#NOT#mmm#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#mmm#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#sac#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#sac#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#bbb#NOT#NOT#NOT#bbb#bbb#bbb#bbb#bbb#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#mmm#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#dee#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
                     "bbb#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
                     "bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb"
                 ]
@@ -93,7 +93,7 @@
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
-                    "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
+                    "aaa#aaa#aaa#aaa#aaa#aaa#ccc#ccc#ccc#ccc#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
                     "aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
                     "aaa#aaa#aaa#aaa#aaa#ccc#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa#aaa",
@@ -102,13 +102,13 @@
                 [
                     "bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb",
                     "bbb#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#dee#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#dee#NOT#NOT#mmm#NOT#bbb",
                     "bbb#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#NOT#bbb#bbb#bbb#bbb#bbb#bbb#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#sac#NOT#NOT#bbb#bbb#bbb#bbb#bbb#bbb#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
                     "bbb#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb",
                     "bbb#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#bbb",
-                    "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#bbb",
+                    "bbb#NOT#sac#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb#NOT#mmm#NOT#NOT#bbb",
                     "bbb#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#NOT#bbb#NOT#NOT#NOT#NOT#bbb",
                     "bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb#bbb"
                 ]
@@ -194,8 +194,27 @@
                 },
               {
                 "name": "mmm",
-                "type": "enemie", 
+                "type": "enemie",
+                "atk": 1,
+                "hp": 2,
+                "spd": 1,
                 "sprite":[[1,18,16,16]]
+              },
+              {
+                "name": "dee",
+                "type": "enemie",
+                "atk": 2,
+                "hp": 4,
+                "spd": 1,
+                "sprite":[[35,18,16,16]]
+              },
+              {
+                "name": "sac",
+                "type": "enemie",
+                "atk": 1,
+                "hp": 1,
+                "spd": 1,
+                "sprite":[[35,18,16,16]]
               }
             ],
         "player": {

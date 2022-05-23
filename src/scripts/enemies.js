@@ -1,10 +1,10 @@
-function createEnemie(x,y,dmg,hp,currSprite,spd,name) {
+function createEnemie(x,y,dmg,hp,spd,currSprite,name) {
   let thisEnemie = {};
   thisEnemie.x = x;
   thisEnemie.y = y;
   thisEnemie.dmg = dmg;
-  thisEnemie.hp = hp;
   thisEnemie.spd = spd;
+  thisEnemie.hp = hp;
   thisEnemie.currSprite =  currSprite;
   thisEnemie.name = name;
   thisEnemie.touch = false;
@@ -32,7 +32,11 @@ function updateEnemies(level,player){
             16,
             16
         );
+    //alert((Math.abs(enemie.x-Math.ceil(enemie.x/16)*16)<deltaTime));
     if(enemie.x%16==0 && enemie.y%16==0){
+      //console.log('buaaa');
+      enemie.x = Math.ceil(enemie.x/16)*16
+      enemie.y = Math.ceil(enemie.y/16)*16
       enemie.dir = findPath(player,level,enemie);
     }
      if(enemie.dir==LEFT){
@@ -48,8 +52,10 @@ function updateEnemies(level,player){
     }
      else if(enemie.dir==DOWN){
       enemie.y+=enemie.spd;
+    } else {
+       
     }
-  if(aabb_collision(player.x,player.y,16,16,enemie.x,enemie.y,16,16)){
+  if(aabb_collision(player.x,player.y,16,16,enemie.x,enemie.y,16,16) && frame%15==0){
     	player.knockbackAngle = Math.atan2((enemie.y-player.y),(enemie.x-player.x));
     console.log( enemie.x,mouse.x)
     if(!enemie.touch){

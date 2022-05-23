@@ -23,6 +23,9 @@ start();
 function update() {
     // if all the images that was tried to load were loaded sucessfully, do the update
     if (nImages === nImagesLoaded && started) {
+      frame++;
+      if(Date.now()-lastTime>=16){  
+        lastTime = Date.now();
         // clear the main canvas
         ctx.clearRect(0, 0, gameCanvas.width, gameCanvas.height);
         // update the map tiles 
@@ -33,9 +36,10 @@ function update() {
         level.enemies = updateEnemies(level,player);
 
         UI = updateUI(UI,player)
-      if(restart){
-        started = false;
-        start();
+        if(restart){
+          started = false;
+          start();
+        }
       }
     }
     window.requestAnimationFrame(update);
